@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { AddCategory } from './components/AddCategory';
-import { GifGrid } from './components/GifGrid';
+import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
   const [categories, setCategories] = useState(['Dark Souls']);
@@ -9,12 +8,11 @@ export const GifExpertApp = () => {
     if (categories.includes(newCategory)) return;
 
     setCategories([newCategory, ...categories]);
-    // setCategories(categories => [newCategory, ...categories]);
   };
 
   return (
     <>
-      <h2>GifExpertApp</h2>
+      <h2>Buscador - GIPHY</h2>
 
       <AddCategory onNewCategory={onAddCategory} />
 
