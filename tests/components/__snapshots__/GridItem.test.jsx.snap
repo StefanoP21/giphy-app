@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en <GridTem /> Evaluar el snapshot 1`] = `
+exports[`Pruebas en <GridItem /> debe de hacer match con el snapshot 1`] = `
 <div>
   <div
     class="card"
